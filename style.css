@@ -312,7 +312,7 @@ hr {
   }
 
   header {
-    min-height: 320px;
+    min-height: 100px;
   }
 
   .main-heading {
