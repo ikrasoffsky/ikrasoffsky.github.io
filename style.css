@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  height: 768px;
+  min-height: 768px;
   background: linear-gradient(0deg,#ebf3fb 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 .container {
@@ -40,6 +40,9 @@ header {
   background-image: url(./resources/16.png);
   background-repeat: no-repeat;
   background-position: right center;
+  background-size: 50%;
+  padding-bottom: 41px;
+  box-sizing: border-box;
 }
 
 .info-box {
@@ -262,6 +265,8 @@ hr {
 .footer-map {
   width: 100%;
 }
+
+
 @media (max-width: 1024px) {
   .container {
     padding-left: 32px;
@@ -312,7 +317,8 @@ hr {
   }
 
   header {
-    min-height: 450px;
+    min-height: 376px;
+    flex-grow: 1;
   }
 
   .main-heading {
@@ -350,5 +356,10 @@ hr {
   .project-item-margin {
     margin-right: 0;
     margin-bottom: 16px;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 }
