@@ -318,7 +318,7 @@ hr {
 
   header {
    
-    flex-grow: 1;
+    min-height: 320px;
   }
 
   .main-heading {
@@ -357,9 +357,5 @@ hr {
     margin-right: 0;
     margin-bottom: 16px;
 }
-.wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+
 }
