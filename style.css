@@ -357,5 +357,48 @@ hr {
     margin-right: 0;
     margin-bottom: 16px;
 }
+  footer {
+  
+  padding-top: 18px;
+  padding-bottom: 32px;
+
+}
+.footer-top {
+  padding-bottom: 41px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-text {
+  width: 100%;
+}
+.footer-heading {
+  
+  color: #fff;
+  width: 75%;
+  margin: 0 auto 32px;
+  text-align: center;
+  }
+  .text-footer {
+    color: #fff;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.footer-info {
+  display: flex;
+  flex-direction: column;
+}
+.footer-button {
+  font-size: 16px;
+    line-height: 26px;
+    padding: 8px 30px;
+  
+}
+.footer-list {
+  margin-bottom: 18px;
+}
+.footer-copy {
+  margin-top: 32px;
+}
 
 }
