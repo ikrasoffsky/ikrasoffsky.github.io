@@ -311,9 +311,9 @@ hr {
     text-align: center;
   }
   .info-button {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 26px;
-    padding: 0 8px;
+    padding: 6px 20px;
   }
 
   header {
